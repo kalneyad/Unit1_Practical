@@ -27,7 +27,7 @@ function mynumber(number) {
   }
   else
   {
-    this.element.innerHTML = "The number is " + this.num;
+    this.element.innerHTML = "The number is " + this.num + " and The number is below 50";
   }
   
   this.element.addEventListener("click", function() { that.increment();});
@@ -49,7 +49,7 @@ mynumber.prototype.increment = function(){
   }
   else
   {
-    this.element.innerHTML = "The number is " + this.num;
+    this.element.innerHTML = "The number is " + this.num + " and The number is below 50";
   }
 }
 
